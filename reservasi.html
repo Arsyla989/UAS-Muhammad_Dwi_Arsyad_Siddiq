@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservasi | SmartFit Hub</title>
+  <link rel="stylesheet" href="reservasi.css">
+</head>
+<body>
+
+  <section class="reservation-section">
+    <h1 class="reservation-title">
+      Form <span>Reservasi</span>
+    </h1>
+    <p class="reservation-subtitle">
+      Reservasi kelas atau trial membership SmartFit Hub
+    </p>
+
+    <form class="reservation-form">
+
+      <div class="form-group">
+        <label>Nama Lengkap</label>
+        <input type="text" placeholder="Masukkan nama lengkap" required>
+      </div>
+
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" placeholder="email@example.com" required>
+      </div>
+
+      <div class="form-group">
+        <label>Nomor HP</label>
+        <input type="tel" placeholder="08xxxxxxxxxx" required>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Tanggal Reservasi</label>
+          <input type="date" required>
+        </div>
+
+        <div class="form-group">
+          <label>Jam</label>
+          <select required>
+            <option value="">Pilih Jam</option>
+            <option>06:00</option>
+            <option>08:00</option>
+            <option>10:00</option>
+            <option>14:00</option>
+            <option>16:00</option>
+            <option>18:00</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Jenis Program</label>
+        <select required>
+          <option value="">Pilih Program</option>
+          <option>Yoga & Mindfulness</option>
+          <option>HIIT Cardio</option>
+          <option>Strength Training</option>
+          <option>Trial Membership</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Pilih Cabang</label>
+        <select required>
+          <option value="">Pilih Cabang</option>
+          <option>Jakarta</option>
+          <option>Bandung</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Catatan Khusus</label>
+        <textarea rows="4" placeholder="Contoh: cedera lutut, pemula, dll"></textarea>
+      </div>
+
+      <div class="form-checkbox">
+        <input type="checkbox" id="confirm" required>
+        <label for="confirm">
+          Saya menyetujui data yang saya isi sudah benar
+        </label>
+      </div>
+
+      <button type="submit" class="submit-btn">
+        Kirim Reservasi
+      </button>
+
+    </form>
+  </section>
+<!-- ===== BUTUH BANTUAN ===== -->
+<section class="help-section" id="help">
+  <h2 class="help-title">Butuh Bantuan?</h2>
+
+  <div class="help-container">
+    <div class="help-card">
+      <div class="help-icon">📞</div>
+      <h3>Telepon</h3>
+      <p>1500-123 (Customer Service)</p>
+      <span>08:00 – 20:00 WIB</span>
+    </div>
+
+    <div class="help-card">
+      <div class="help-icon">✉️</div>
+      <h3>Email</h3>
+      <p>reservation@smartfithub.co.id</p>
+      <span>Respon dalam 2x24 jam</span>
+    </div>
+
+    <div class="help-card">
+      <div class="help-icon">💬</div>
+      <h3>Live Chat</h3>
+      <p>Website & Aplikasi SmartFit</p>
+      <span>24/7 untuk member</span>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
